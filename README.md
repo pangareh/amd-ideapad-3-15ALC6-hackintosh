@@ -1,3 +1,4 @@
+`Forked to use in my Lenovo Ideapad 15ALC6 and not ready yet`
 # OpenCore EFI for AMD Laptops (updated to Monterey 12.4)
 
 **OpenCore version: update from 0.7.4 to [0.9.3](https://github.com/acidanthera/OpenCorePkg/releases/)**
@@ -44,17 +45,17 @@ Or you can start the guide [here](https://nootinc.github.io/guide/gathering-file
 **PlatformInfo**
 - Please change MLB/ROM/Serial Number/UUID by using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 
-## My laptop is **ASUS Vivobook A412D**
-- CPU model: AMD RAMD Ryzen 5 3500U with Radeon (TM) Vega Graphics
-- GPU model: Radeon (TM) Vega 8 Graphics
+## My laptop is **Lenovo IdeaPad 3 15ALC6 - 82MFS00100**
+- CPU model: AMD AMD Ryzen 5 5500U with AMD Radeon(TM) Graphics
+- GPU model: Radeon (TM) Graphics
 - Chipset Model:
 - Keyboard, trackpad:
   - Keyboard: PS2
   - Trackpad: 
 - Audio
-  - AMD K17.1
+  - Realtek ALC257 @ AMD K17.6
   - Audio Codec: `xx`
-- Network Controller models: Intel wireless 8265
+- Network Controller models: `Qualcomm Atheros QCA9377`
 - Drive Model:
 ## **Note**:
 There's no audio and video supported, but I mainly use this Hackintosh for iOS development purpose, so not a big deal.
